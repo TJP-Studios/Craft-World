@@ -3,7 +3,7 @@
     padding: 0;
 }
 .homepage_header {
-    background-color: black;
+    background-color: #FFFFFF;
     width: 97.9%;
     height: 180px;
     display: flex;
@@ -22,14 +22,14 @@
 
 .homepage_primary_menu {
     display: flex;
-    color: white;
+    color: #000000;
     justify-content: space-between;
     width: 65%;
 }
 
 .homepage_primary_menu p{
     display: inline;
-    color: white;
+    color: #000000;
     justify-content: space-between;
     width: 60%;
     padding-right: 5%;
@@ -40,7 +40,7 @@
 
 .homepage_secondary_menu {
     display: flex;
-    color: white;
+    color: #000000;
     justify-content: space-between;
     width: 40%;
     align-items: center;
@@ -60,4 +60,23 @@
     color: white;
     background-color: blue;
     border: none;
+}
+
+.intro {
+    background-image: url(Assets/Login.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding: 3rem;
+    color: #FFFFFF;
+}
+.intro_p {
+    width: 950px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 30.85px;
+}
+.intro_search {
+    display: flex;
+    justify-content: center;
 }

@@ -173,10 +173,74 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .see-more {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  gap: 5px;
+}
+.new-arrival-content-container {
+  display: flex;
+  gap: 19.9px;
+  font-family: "Montserrat", sans-serif;
+}
+.home-decor {
+  line-height: 35px;
+  background-color: #ffffff;
+}
+.home-decor-article {
+  padding: 0rem 1.3rem 0.7rem;
+}
+.home-decor-header {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0.125em;
+  text-align: left;
+}
+.d-paper-header {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.125em;
+}
+.home-decor-artisan {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.115em;
+}
+.reviews {
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+}
+
+.reviews-number {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.125em;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.125em;
+}
+.add-to-cart-button {
+  border: none;
+  border-radius: 28px;
+  padding: 0.8rem;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 12px 0px #00000040;
+  transition: border 0.2s;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.add-to-cart-button:hover {
+  border: 1px solid #372aff;
 }

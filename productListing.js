@@ -12,4 +12,4 @@ function updateSlidePosition() {
   slider.style.transform = `translateX(-${count * slideWidth}px)`;
 }
 
-setInterval(() => slideTo(count + 1), 2000);
+setInterval(() => slideTo(count + 1), 3500);

@@ -302,6 +302,7 @@ footer {
   background-color: #000000;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
+  margin-top: 4rem;
 }
 .footer {
   display: flex;

@@ -245,3 +245,19 @@ body {
 .add-to-cart-button:hover {
   border: 1px solid #372aff;
 }
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 19px;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+}

@@ -137,17 +137,187 @@ a:visited{
     border: 0px;
 }
 
-.homepage_special{
+.homepage_section1{
     display: flex;
     justify-content: center;
-    margin:60px 30px;
+    margin:60px 80px;
     gap: 20px;
     
 }
 
-
-.homepage_special_centre{
+.homepage_section1_centre{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.homepage_section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 250px;
+    margin: 100px 80px;
+}
+
+
+.homepage_section2_img2{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+.homepage_section2_content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34.13px;
+}
+
+.homepage_section2_content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.homepage_section2_content button {
+    width:140px;
+    height: 46px;
+    border-radius: 16px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+.homepage_section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 250px;
+    margin: 150px 80px;
+}
+
+
+.homepage_section3_img1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+.homepage_section3_content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34.13px;
+}
+
+.homepage_section3_content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.homepage_section3_content button {
+    width:140px;
+    height: 46px;
+    border-radius: 16px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+.homepage_section4{
+    margin: 30px 120px;
+    background-color: #F7F8FC;
+    padding: 20px 60px 60px 60px;
+    
+}
+
+.homepage_section4_product{
+    margin-top: 15px;
+    width: 23.5%;
+}
+
+.homepage_section4_productimg{
+    background-color: white;
+}
+
+.homepage_section4_product img{
+    width: 100%;
+}
+
+.homepage_section4_productdetails{
+    padding: 5px 20px;
+    background-color: white;
+    position: relative;
+}
+
+.homepage_section4_productdetails h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24.27px;
+    font-weight: 600;
+    line-height: 29.59px;
+    padding-bottom: 15px;
+}
+
+.homepage_section4_productdetails>p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10.62px;
+    font-weight: 500;
+    line-height: 12.95px;
+    padding-bottom: 15px;
+}
+
+.homepage_section4_productdetails div p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10.62px;
+    font-weight: 400;
+    line-height: 12.95px;
+
+}
+
+.section4_productreview{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 15px;
+}
+
+.section4_productreview img{
+    width: 100px;
+}
+
+.homepage_section4_productdetails h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.17px;
+    font-weight: 500;
+    line-height: 18.49px;
+    padding-bottom: 15px;
+}
+
+.homepage_section4_productdetails button{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.14px;
+    font-weight: 600;
+    line-height: 14.79px;
+    width:85px;
+    height: 30px;
+    border-radius: 19px;
+    background-color: whitesmoke;
+    border: blue;
+    border-width: 0.38px;
+}
+
+.homepage_product_row1{
+    display: flex;
+    gap: 2%;
 }

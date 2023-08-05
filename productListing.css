@@ -163,7 +163,7 @@ body {
   flex-basis: 50%;
   gap: 19px;
 }
-.new-arrival-section-header {
+.sections-header {
   display: flex;
   justify-content: space-between;
   background-color: #372aff;
@@ -180,7 +180,7 @@ body {
   font-family: "Montserrat", sans-serif;
   gap: 5px;
 }
-.new-arrival-content-container {
+.contents-container {
   display: flex;
   gap: 19.9px;
   font-family: "Montserrat", sans-serif;
@@ -198,9 +198,10 @@ body {
   letter-spacing: 0.125em;
   text-align: left;
 }
-.d-paper-header {
-  font-size: 24px;
-  font-weight: 600;
+.d-paper-header,
+.fisherman-header {
+  font-size: 25px;
+  font-weight: 900;
   letter-spacing: 0.125em;
 }
 .home-decor-artisan {

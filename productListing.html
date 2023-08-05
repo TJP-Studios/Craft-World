@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="productListing.css">
     <title>Product Listing</title>
 </head>
@@ -33,608 +36,617 @@
 
     </header>
     <article class="intro">
-        <p class="intro_p">Welcome to Kraftworld, Explore our handpicked selection of unique and inspiring crafts crafted by talented
+        <p class="intro_p">Welcome to Kraftworld, Explore our handpicked selection of unique and inspiring crafts
+            crafted by talented
             artisans
             from around the world. Discover one-of-a-kind pieces that will add charm and creativity to your life.</p>
         <span class="intro_search">
             <select name="All Items" id="items">
                 <option value="All Items">All Items</option>
             </select>
-            <input type="text">
-            <span>
-                <img src="Assets/search icon.png" alt="search-icon">
+            <input class="input" placeholder="Search..." type="text">
+            <span class="search-icon">
+                <img class="search-icon_img" src="Assets/search icon.png" alt="search-icon">
             </span>
         </span>
     </article>
-    <div>
-        <div>
-            <span><img src="Assets/Filter icon.png" alt="filter-icon"></span>
-            <span>Filter</span>
+    <div class="filter-container">
+        <div class="filter-icon">
+            <img src="Assets/Filter icon.png" alt="filter-icon">
+            <p class="filter-p">Filter</p>
         </div>
         <div>
-            <select name="Sort by" id="items">
+            <select name="Sort by" id="sort-by">
                 <option value="Sort-by">Sort by</option>
             </select>
         </div>
     </div>
-    <section>
-        <div>
-            <h1>Explore by Category</h1>
-        </div>
-        <div>
-            <img src="Assets/pottery.png" alt="Pot">
-            <img src="Assets/ceramics.png" alt="ceramics">
-            <img src="Assets/wood.png" alt="wood">
-            <img src="Assets/glass.png" alt="glass">
-            <img src="Assets/bag.png" alt="bag">
-            <img src="Assets/flower.png" alt="flower">
-            <img src="Assets/jewery.png" alt="jewery">
-            <img src="Assets/leather.png" alt="leather">
-        </div>
-    </section>
-    <section>
-        <div>
-            <h2>New Arrival</h2>
-            <span>
-                <p>See more</p>
-                <img src="Assets/next arrow.jpg" alt="">
-            </span>
-        </div>
-        <div>
-            <div>
-                <img src="Assets/home decor.png" alt="Home-Decor">
-                <p>Home Decor</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
+    <div class="container">
+        <section>
+            <div class="explore">
+                <h1 class="explore-p">Explore by Category</h1>
+            </div>
+            <div class="explore-img">
+                <div class="row">
+                    <img src="Assets/pottery.png" alt="Pot">
+                    <img src="Assets/ceramics.png" alt="ceramics">
+                    <img src="Assets/wood.png" alt="wood">
+                    <img src="Assets/glass.png" alt="glass">
+                </div>
+                <div class="row">
+                    <img src="Assets/bag.png" alt="bag">
+                    <img src="Assets/flower.png" alt="flower">
+                    <img src="Assets/jewery.png" alt="jewelry">
+                    <img src="Assets/leather.png" alt="leather">
+                </div>
             </div>
 
+        </section>
+        <section>
+            <div class="new-arrival-section-header">
+                <h2>New Arrival</h2>
+                <div class="see-more">
+                    <p>See more</p>
+                    <img src="Assets/see more arrow.png" alt="">
+                </div>
+            </div>
             <div>
-                <img src="Assets/3d paper.png" alt="Home-Decor">
-                <p>3D Paper Craft</p>
-                <p>By Artisan Name</p>
+                <div>
+                    <img src="Assets/home decor.png" alt="Home-Decor">
+                    <p>Home Decor</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/3d paper.png" alt="Home-Decor">
+                    <p>3D Paper Craft</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/bead craft.png" alt="Home-Decor">
+                    <p>Bead Craft</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/meter craft.png" alt="Home-Decor">
+                    <p>Meter Craft</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Most Popular</h2>
                 <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
+                    <p>See more</p>
+                    <img src="Assets/next arrow.jpg" alt="">
                 </span>
             </div>
-
             <div>
-                <img src="Assets/bead craft.png" alt="Home-Decor">
-                <p>Bead Craft</p>
-                <p>By Artisan Name</p>
+                <div>
+                    <img src="Assets/jewery img.png" alt="jewery">
+                    <p>Jewelries</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/wallpaper.png" alt="Wall-Decor">
+                    <p>Wall Decor</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/fashion.png" alt="fashion">
+                    <p>Fashion</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/beads.png" alt="Beads">
+                    <p>Meter Craft</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Best Selling</h2>
                 <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
+                    <p>See more</p>
+                    <img src="Assets/next arrow.jpg" alt="">
                 </span>
             </div>
-
             <div>
-                <img src="Assets/meter craft.png" alt="Home-Decor">
-                <p>Meter Craft</p>
-                <p>By Artisan Name</p>
+                <div>
+                    <img src="Assets/embodery.png" alt="Embroidery">
+                    <p>Embroidery</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/ethnic decor.png" alt="Ethnic-Decor">
+                    <p>Ethnic Decor</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/flower craft.png" alt="Flower-Craft">
+                    <p>Flower Craft</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/fashion craft.png" alt="Fashion-Craft">
+                    <p>Fashion Craft</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Fashion</h2>
                 <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
+                    <p>See more</p>
+                    <img src="Assets/next arrow.jpg" alt="">
                 </span>
             </div>
-
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <h2>Most Popular</h2>
-            <span>
-                <p>See more</p>
-                <img src="Assets/next arrow.jpg" alt="">
-            </span>
-        </div>
-        <div>
             <div>
-                <img src="Assets/jewery img.png" alt="jewery">
-                <p>Jewelries</p>
-                <p>By Artisan Name</p>
+                <div>
+                    <img src="Assets/Hills.png" alt="Hills & Purse">
+                    <p>Hills & Purse</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/ankara handbag.png" alt="Ankara Hand bag">
+                    <p>Ankara Hand Bag</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/ankara snickers.png" alt="Ankara Sneakers">
+                    <p>Ankara Sneakers</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/flat slippers.png" alt="Flat Slippers">
+                    <p>Flat Slippers</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Ceramics</h2>
                 <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
+                    <p>See more</p>
+                    <img src="Assets/next arrow.jpg" alt="">
                 </span>
             </div>
-
             <div>
-                <img src="Assets/wallpaper.png" alt="Wall-Decor">
-                <p>Wall Decor</p>
-                <p>By Artisan Name</p>
+                <div>
+                    <img src="Assets/plate and cup.png" alt="Plates & Cup">
+                    <p>Plates & Cup</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/mini verse.png" alt="Mini Vase">
+                    <p>Mini Vase</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/coffe mug.png" alt="Coffee Mugs">
+                    <p>Coffee Mugs</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/wall planter.png" alt="Wall Planter">
+                    <p>Wall Planter</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Decorative Crafts</h2>
                 <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
+                    <p>See more</p>
+                    <img src="Assets/next arrow.jpg" alt="">
                 </span>
             </div>
-
             <div>
-                <img src="Assets/fashion.png" alt="fashion">
-                <p>Fashion</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
+                <div>
+                    <img src="Assets/africa mask.png" alt="African Mask">
+                    <p>African Mask</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/festac 77.png" alt="Festac 77">
+                    <p>Festac 77</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/fisherman hut.png" alt="Fishermen's Hut">
+                    <p>Fishermen's Hut</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <div>
+                    <img src="Assets/eagle.png" alt="Eagle Sculpt">
+                    <p>Eagle Sculpt</p>
+                    <p>By Artisan Name</p>
+                    <span>
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                        <img src="Assets/star badge.png" alt="">
+                    </span>
+                    <p>(1234 reviews)</p>
+                    <span>
+                        <p>$45</p>
+                        <button>
+                            <p>Add to Cart</p>
+                        </button>
+                    </span>
+                </div>
+
+                <p>Others</p>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
-
-            <div>
-                <img src="Assets/beads.png" alt="Beads">
-                <p>Meter Craft</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <h2>Best Selling</h2>
-            <span>
-                <p>See more</p>
-                <img src="Assets/next arrow.jpg" alt="">
-            </span>
-        </div>
-        <div>
-            <div>
-                <img src="Assets/embodery.png" alt="Embroidery">
-                <p>Embroidery</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/ethnic decor.png" alt="Ethnic-Decor">
-                <p>Ethnic Decor</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/flower craft.png" alt="Flower-Craft">
-                <p>Flower Craft</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/fashion craft.png" alt="Fashion-Craft">
-                <p>Fashion Craft</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <h2>Fashion</h2>
-            <span>
-                <p>See more</p>
-                <img src="Assets/next arrow.jpg" alt="">
-            </span>
-        </div>
-        <div>
-            <div>
-                <img src="Assets/Hills.png" alt="Hills & Purse">
-                <p>Hills & Purse</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/ankara handbag.png" alt="Ankara Hand bag">
-                <p>Ankara Hand Bag</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/ankara snickers.png" alt="Ankara Sneakers">
-                <p>Ankara Sneakers</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/flat slippers.png" alt="Flat Slippers">
-                <p>Flat Slippers</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <h2>Ceramics</h2>
-            <span>
-                <p>See more</p>
-                <img src="Assets/next arrow.jpg" alt="">
-            </span>
-        </div>
-        <div>
-            <div>
-                <img src="Assets/plate and cup.png" alt="Plates & Cup">
-                <p>Plates & Cup</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/mini verse.png" alt="Mini Vase">
-                <p>Mini Vase</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/coffe mug.png" alt="Coffee Mugs">
-                <p>Coffee Mugs</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/wall planter.png" alt="Wall Planter">
-                <p>Wall Planter</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <h2>Decorative Crafts</h2>
-            <span>
-                <p>See more</p>
-                <img src="Assets/next arrow.jpg" alt="">
-            </span>
-        </div>
-        <div>
-            <div>
-                <img src="Assets/africa mask.png" alt="African Mask">
-                <p>African Mask</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/festac 77.png" alt="Festac 77">
-                <p>Festac 77</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/fisherman hut.png" alt="Fishermen's Hut">
-                <p>Fishermen's Hut</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <div>
-                <img src="Assets/eagle.png" alt="Eagle Sculpt">
-                <p>Eagle Sculpt</p>
-                <p>By Artisan Name</p>
-                <span>
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                    <img src="Assets/star badge.png" alt="">
-                </span>
-                <p>(1234 reviews)</p>
-                <span>
-                    <p>$45</p>
-                    <button>
-                        <p>Add to Cart</p>
-                    </button>
-                </span>
-            </div>
-
-            <p>Others</p>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </section>
-    <article>
-        <p>At KraftWorld, we take pride in curating a diverse collection of handcrafted treasures from talented artisans
-            worldwide. Our online craft marketplace is a celebration of creativity, passion, and the art of
-            craftsmanship.
-        </p>
-    </article>
+        </section>
+        <article>
+            <p>At KraftWorld, we take pride in curating a diverse collection of handcrafted treasures from talented
+                artisans
+                worldwide. Our online craft marketplace is a celebration of creativity, passion, and the art of
+                craftsmanship.
+            </p>
+        </article>
+    </div>
 
     <footer>
         <div>
@@ -671,7 +683,7 @@
             <p>Legal</p>
             <p>FAQ</p>
         </div>
-        <p>@Copyright 2023  - Creative Hub, JP Project</p>
+        <p>@Copyright 2023 - Creative Hub, JP Project</p>
     </footer>
 </body>
 

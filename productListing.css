@@ -44,12 +44,12 @@ body {
 
 a:link {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:visited {
   text-decoration: none;
-  color: white;
+  color: #000000;
 }
 
 .homepage_secondary_menu {

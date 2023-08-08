@@ -12,7 +12,7 @@ function updateSlidePosition() {
   slider.style.transform = `translateX(-${count * slideWidth}px)`;
 }
 
-setInterval(() => slideTo(count + 1), 3500);
+setInterval(() => slideTo(count + 1), 2000);
 
 function navigateToPage2() {
   // Redirect the user to the product details page when the card is clicked

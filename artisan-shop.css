@@ -1,4 +1,4 @@
-*  {
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,22 +8,28 @@ body {
 }
 
 /* navbar starts */
+
 .homepage_header {
     background-color: #FFFFFF;
-    width: 97.9%;
-    height: 180px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
-    padding-left: 30px;
     align-items: center;
+}
+
+.homepage_logo {
+    padding-left: 80px;
+    width: 30%;
 }
 
 .homepage_nav_menu {
     width: 60%;
     display: flex;
-    align-items: center; 
-    /* color: white; */
-    justify-content: space-between;   
+    align-items: center;
+    color: white;
+
 }
 
 .homepage_primary_menu {
@@ -33,7 +39,7 @@ body {
     width: 65%;
 }
 
-.homepage_primary_menu p{
+.homepage_primary_menu p {
     display: inline;
     color: black;
     justify-content: space-between;
@@ -41,7 +47,7 @@ body {
     padding-right: 5%;
     font-size: 24px;
     font-weight: 400;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .homepage_secondary_menu {
@@ -60,7 +66,7 @@ body {
 }
 
 .homepage_header_signin_button {
-    width:160px;
+    width: 160px;
     height: 48px;
     border-radius: 10px;
     color: white;
@@ -70,22 +76,102 @@ body {
 
 /* navbar ends */
 
+
+/* First Section STRT */
+
 .homepage_second_section {
-    position: relative;
-    width: 90%;
+    width: 88%;
     padding-top: 3%;
     margin: auto;
 }
 
-.frame54 {
+.cover-container {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 9%;
     align-items: center;
+    position: relative;
 }
 
-.frame54 img {
+.firstpart {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.firstpart img {
     width: 100%;
 }
 
-.frstframe {
+.secondpart {
     position: absolute;
-    top: 140px;
+    right: 15%;
+    bottom: 0;
 }
+
+.secondpart img {
+    width: 85%;
+}
+
+.scnd-cover-cont {
+    display: flex;
+    
+}
+
+.dsply-photo {
+    position: absolute;
+    bottom: 114px;
+}
+
+.dsply-photo img {
+    width: 95%;
+}
+
+.second-cont {
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+}
+
+.ocean-crft {
+    color: aqua;
+    text-align: center;
+    margin-left: auto;
+    text-align: start;
+    width: 87%;
+    margin-bottom: 1%;
+}
+
+.secndframe {
+    display: flex;
+    width: 87%;
+    margin-left: auto;
+    padding-bottom: 1%;
+}
+
+.one {
+    width: 20%;
+}
+
+.two>div {
+    display: flex;
+    width: 50%;
+}
+
+.two {
+    display: flex;
+    border-left: 1.2px solid black;
+    width: 25%;
+    padding-left: 2%;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    justify-content: space-between;
+    
+}
+
+.three>div {
+    display: flex;
+}
+
+/* First Section ENDS  */

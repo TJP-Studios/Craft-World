@@ -7,12 +7,17 @@ body {
 }
 .homepage_header {
   background-color: #ffffff;
-  width: 97.9%;
-  height: 180px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
-  padding-left: 30px;
   align-items: center;
+}
+
+.homepage_logo {
+  padding-left: 80px;
+  width: 30%;
 }
 
 .homepage_nav_menu {
@@ -20,35 +25,41 @@ body {
   display: flex;
   align-items: center;
   color: white;
-  justify-content: space-between;
 }
 
 .homepage_primary_menu {
   display: flex;
-  color: #000000;
-  justify-content: space-between;
-  width: 65%;
+  color: black;
+  justify-content: space-around;
+  width: 51%;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 50px;
 }
 
 .homepage_primary_menu p {
   display: inline;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
   color: #000000;
-  justify-content: space-between;
-  width: 60%;
-  padding-right: 5%;
-  font-size: 24px;
-  font-weight: 400;
-  font-family: "Montserrat", sans-serif;
 }
 
 .homepage_secondary_menu {
   display: flex;
   color: #000000;
   justify-content: space-between;
-  width: 40%;
+  width: 30%;
   align-items: center;
-  padding-right: 90px;
-  padding-left: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .homepage_secondary_menu img {
@@ -59,10 +70,68 @@ body {
 .homepage_header_signin_button {
   width: 160px;
   height: 48px;
-  border-radius: 10px;
+  border-radius: 16px;
   color: white;
   background-color: blue;
   border: none;
+}
+.homepage_hero_section {
+  background-color: black;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage_hero_image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepage_hero_title {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.homepage_hero_title {
+  color: white;
+  position: absolute;
+  top: 33%;
+  left: 12%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.homepage_hero_subtitle {
+  color: white;
+  position: absolute;
+  top: 46%;
+  left: 28%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.homepage_hero_button {
+  color: white;
+  background-color: blue;
+  border-radius: 13px;
+  width: 184px;
+  height: 56px;
+  position: absolute;
+  top: 57%;
+  left: 43%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  border: 0px;
 }
 
 .intro {
@@ -323,12 +392,11 @@ footer {
   padding-bottom: 1rem;
 }
 .footer-p,
-.Copyright{
-font-size: 14px;
-font-weight: 300;
-line-height: 30px;
-letter-spacing: 0.12em;
-
+.Copyright {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.12em;
 }
 .Copyright {
   display: flex;

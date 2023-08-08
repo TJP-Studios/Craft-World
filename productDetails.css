@@ -7,49 +7,58 @@ body {
 }
 .homepage_header {
   background-color: #ffffff;
-  /* width: 97.9%; */
-  /* height: 180px; */
-  padding: 1.5rem 0.5rem;
+  width: 100%;
+  padding-top: 45px;
+  padding-bottom: 45px;
   display: flex;
   justify-content: space-between;
-  /* padding-left: 30px; */
   align-items: center;
+}
+
+.homepage_logo {
+  padding-left: 80px;
+  width: 30%;
 }
 
 .homepage_nav_menu {
   width: 60%;
   display: flex;
   align-items: center;
-  color: white;
-  justify-content: space-between;
+  color: black;
 }
 
 .homepage_primary_menu {
   display: flex;
   color: #000000;
   justify-content: space-between;
-  width: 65%;
+  width: 51%;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 50px;
 }
 
 .homepage_primary_menu p {
   display: inline;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
   color: #000000;
-  justify-content: space-between;
-  width: 60%;
-  padding-right: 5%;
-  font-size: 24px;
-  font-weight: 400;
-  font-family: "Montserrat", sans-serif;
 }
 
 .homepage_secondary_menu {
   display: flex;
   color: #000000;
   justify-content: space-between;
-  width: 40%;
+  width: 30%;
   align-items: center;
-  padding-right: 90px;
-  padding-left: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .homepage_secondary_menu img {
@@ -60,10 +69,18 @@ body {
 .homepage_header_signin_button {
   width: 160px;
   height: 48px;
-  border-radius: 10px;
+  border-radius: 16px;
   color: white;
   background-color: blue;
   border: none;
+}
+
+.homepage_hero_section {
+  background-color: black;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .intro {
@@ -71,7 +88,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
-  padding: 4.5rem 4.5rem 4rem 4.5rem;
+  padding: 5rem 5rem 4rem 5rem;
   color: #ffffff;
 }
 .intro_p {
@@ -80,4 +97,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.0015em;
   color: #ffffff;
+}
+.first-section-container {
+  display: flex;
 }

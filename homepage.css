@@ -20,8 +20,7 @@
     width: 60%;
     display: flex;
     align-items: center; 
-    color: white;
-       
+    color: white; 
 }
 
 .homepage_primary_menu {
@@ -37,20 +36,16 @@
 
 .homepage_primary_menu p{
     display: inline;
-   
-  
 }
 
 a:link{
     text-decoration: none;
     color: white;
-    
 }
 
 a:visited{
     text-decoration: none;
     color: white;
-    
 }
 
 .homepage_secondary_menu {

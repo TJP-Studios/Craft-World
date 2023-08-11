@@ -6,8 +6,8 @@
 .homepage_header {
   background-color: #ffffff;
   width: 100%;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,18 +22,18 @@
   width: 60%;
   display: flex;
   align-items: center;
-  color: black;
+  color: white;
 }
 
 .homepage_primary_menu {
   display: flex;
-  color: #000000;
-  justify-content: space-between;
+  color: black;
+  justify-content: space-around;
   width: 51%;
   font-size: 24px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 .homepage_primary_menu p {
@@ -44,6 +44,7 @@ a:link {
   text-decoration: none;
   color: black;
 }
+
 a:visited {
   text-decoration: none;
   color: #000000;
@@ -57,6 +58,7 @@ a:visited {
   align-items: center;
   padding-right: 0px;
   padding-left: 0px;
+  gap: 1.5rem;
 }
 
 .homepage_secondary_menu img {
@@ -71,14 +73,6 @@ a:visited {
   color: white;
   background-color: blue;
   border: none;
-}
-
-.homepage_hero_section {
-  background-color: black;
-  position: relative;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .intro {
@@ -99,19 +93,16 @@ a:visited {
 }
 .first-section-container {
   display: flex;
-  margin: 3rem 20.5rem 3rem 11rem;
+  margin: 3rem 5rem 3rem 8rem;
   font-family: "Montserrat", sans-serif;
   line-height: 39px;
   gap: 5rem;
 }
-/* .container {
-  margin: 0 auto;
-} */
 
 h1 {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 600;
-  letter-spacing: 0.125em;
+  letter-spacing: 0.1em;
   line-height: 39.01px;
 }
 .price {
@@ -181,7 +172,7 @@ h3 {
 }
 .button-container-two {
   margin-top: 2rem;
-  /* margin-right: 0.7rem; */
+  margin-right: 0.9rem;
   gap: 1rem;
 }
 .button {
@@ -295,7 +286,7 @@ input {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
-  width: 87.5%;
+  width: 85%;
   padding: 0.7rem 2.5rem;
   border: none;
   outline: none;

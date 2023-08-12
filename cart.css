@@ -1,154 +1,219 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    background-color: #f7f8fc;
-  }
-  .homepage_header {
-    background-color: #ffffff;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f7f8fc;
+}
+.homepage_header {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage_logo {
+  padding-left: 80px;
+  width: 30%;
+}
+
+.homepage_nav_menu {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.homepage_primary_menu {
+  display: flex;
+  color: black;
+  justify-content: space-around;
+  width: 51%;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 25px;
+}
+
+.homepage_primary_menu p {
+  display: inline;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.homepage_secondary_menu {
+  display: flex;
+  color: #000000;
+  justify-content: space-between;
+  width: 30%;
+  align-items: center;
+  padding-right: 0px;
+  padding-left: 0px;
+  gap: 1.5rem;
+}
+
+.homepage_secondary_menu img {
+  height: 33px;
+  padding-top: 3.5px;
+}
+
+.homepage_header_signin_button {
+  width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  color: white;
+  background-color: blue;
+  border: none;
+}
+
+.intro {
+  background-image: url(Assets/Login.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding: 4.5rem 4.5rem 4rem 4.5rem;
+  color: #ffffff;
+}
+
+.intro_search {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+#items {
+  background-color: #e0e0e0;
+  outline: none;
+  border: none;
+  padding: 5px 2px 5px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.input {
+  outline: none;
+  border: none;
+  width: 57%;
+  padding: 1.2rem;
+}
+.search-icon {
+  background-color: #e0e0e0;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 1rem;
+}
+.search-icon_img {
+  width: 50%;
+}
+
+h1 {
+  background-color: #372aff;
+  padding: 0.5rem 3rem;
+  color: #ffffff;
+  margin: 2.5rem 0rem;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0.0015em;
+}
+
+.main-container {
+}
+.first-section-container {
+  display: flex;
+  align-items: center;
+}
+.first-cart-container {
+  display: flex;
+}
+.cart-head {
+  display: flex;
+  align-items: center;
+}
+.add{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.remove {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-  }
-  
-  .homepage_logo {
-    padding-left: 80px;
-    width: 30%;
-  }
-  
-  .homepage_nav_menu {
-    width: 60%;
-    display: flex;
-    align-items: center;
-    color: white;
-  }
-  
-  .homepage_primary_menu {
-    display: flex;
-    color: black;
-    justify-content: space-around;
-    width: 51%;
-    font-size: 24px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-    margin-right: 25px;
-  }
-  
-  .homepage_primary_menu p {
-    display: inline;
-  }
-  
-  a:link {
-    text-decoration: none;
-    color: black;
-  }
-  
-  a:visited {
-    text-decoration: none;
-    color: #000000;
-  }
-  
-  .homepage_secondary_menu {
-    display: flex;
-    color: #000000;
-    justify-content: space-between;
-    width: 30%;
-    align-items: center;
-    padding-right: 0px;
-    padding-left: 0px;
-    gap: 1.5rem;
-  }
-  
-  .homepage_secondary_menu img {
-    height: 33px;
-    padding-top: 3.5px;
-  }
-  
-  .homepage_header_signin_button {
-    width: 160px;
-    height: 48px;
-    border-radius: 16px;
-    color: white;
-    background-color: blue;
-    border: none;
-  }
-  
-  
-  .intro {
-    background-image: url(Assets/Login.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    text-align: center;
-    padding: 4.5rem 4.5rem 4rem 4.5rem;
-    color: #ffffff;
-  }
-  
-  .intro_search {
-    display: flex;
-    justify-content: center;
-    padding-top: 1.5rem;
-  }
-  #items {
-    background-color: #e0e0e0;
-    outline: none;
-    border: none;
-    padding: 5px 2px 5px 10px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-  }
-  .input {
-    outline: none;
-    border: none;
-    width: 57%;
-    padding: 1.2rem;
-  }
-  .search-icon {
-    background-color: #e0e0e0;
-    width: 2.5rem;
-    display: flex;
-    justify-content: center;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    padding: 1rem;
-  }
-  .search-icon_img {
-    width: 50%;
-  }
- 
-  
-  /* footer style */
-  footer {
-    background-color: #000000;
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 4rem;
-  }
-  .footer {
-    display: flex;
-    justify-content: space-around;
-    padding: 5rem 0;
-  }
-  .footer-header {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0.12em;
-    padding-bottom: 1rem;
-  }
-  .footer-p,
-  .Copyright {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 30px;
-    letter-spacing: 0.12em;
-  }
-  .Copyright {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 2rem;
-  }
-  
+    gap: 4px; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button,
+.button-two {
+  width: 45.6px;
+  height: 45.6px;
+  left: 84.6px;
+  border-radius: 10px;
+  border: 2px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+/* .button-two {
+  padding: 0.6rem 0.8rem;
+  border: 2.78px solid #ebebeb;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  cursor: pointer;
+} */
+.buttonresult {
+  padding: 0.6rem 0.8rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+}
+/* footer style */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 4rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem 0;
+}
+.footer-header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.12em;
+  padding-bottom: 1rem;
+}
+.footer-p,
+.Copyright {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+}
+.Copyright {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
